@@ -1,0 +1,164 @@
+{
+    "list": [
+        {
+        "province": "广东",
+        "city": "广州",
+        "county": "荔湾区",
+        "hospital": "三甲",
+        "states": "优先",
+        "hotcity": "热"
+        },
+        {
+        "province": "广东",
+        "city": "广州",
+        "county": "天河区",
+        "hospital": "三甲",
+        "states": "优先",
+        "hotcity": "热"
+        },
+        {
+            "province": "广东",
+            "city": "惠州",
+            "county": "平山镇",
+            "hospital": "三甲",
+            "states": "优先",
+            "hotcity": "热"
+        },
+        {
+            "province": "湖北",
+            "city": "武汉",
+            "county": "江汉区",
+            "hospital": "三甲",
+            "states": "次级",
+            "hotcity": "冷"
+        },
+        {
+            "province": "湖北",
+            "city": "武汉",
+            "county": "汉口区",
+            "hospital": "三甲",
+            "states": "次级",
+            "hotcity": "冷"
+        },
+        {
+            "province": "福建",
+            "city": "厦门",
+            "county": "湖里区",
+        "hospital": "三甲",
+        "states": "最低",
+        "hotcity": "冷"
+        },
+        {
+            "province": "福建",
+        "city": "厦门",
+        "county": "湖里区",
+        "hospital": "三甲",
+        "states": "最低",
+        "hotcity": "冷"
+        },
+        {
+            "province": "福建",
+            "city": "厦门",
+            "county": "思明区",
+            "hospital": "三甲",
+            "states": "最低",
+            "hotcity": "冷"
+        },
+        {
+            "province": "湖北",
+            "city": "武汉",
+            "county": "汉口区",
+            "hospital": "三甲",
+            "states": "次级",
+            "hotcity": "冷"
+        },
+        {
+            "province": "湖北",
+            "city": "武汉",
+            "county": "汉口区",
+            "hospital": "三甲",
+            "states": "次级",
+            "hotcity": "冷"
+        },
+        {
+            "province": "湖北",
+            "city": "武汉",
+            "county": "汉口区",
+            "hospital": "三甲",
+            "states": "次级",
+            "hotcity": "冷"
+        },
+        {
+            "province": "湖北",
+            "city": "武汉",
+            "county": "汉口区",
+            "hospital": "三甲",
+            "states": "次级",
+            "hotcity": "冷"
+        },
+        {
+            "province": "湖北",
+            "city": "武汉",
+            "county": "汉口区",
+            "hospital": "三甲",
+            "states": "次级",
+            "hotcity": "冷"
+        },
+        {
+            "province": "湖北",
+            "city": "武汉",
+            "county": "汉口区",
+            "hospital": "三甲",
+            "states": "次级",
+            "hotcity": "冷"
+        },
+        {
+            "province": "湖北",
+            "city": "武汉",
+            "county": "汉口区",
+            "hospital": "三甲",
+            "states": "次级",
+            "hotcity": "冷"
+        },
+        {
+            "province": "湖北",
+            "city": "武汉",
+            "county": "汉口区",
+            "hospital": "三甲",
+            "states": "次级",
+            "hotcity": "冷"
+        },
+        {
+            "province": "湖北",
+            "city": "武汉",
+            "county": "汉口区",
+            "hospital": "三甲",
+            "states": "次级",
+            "hotcity": "冷"
+        },
+        {
+            "province": "湖北",
+            "city": "武汉",
+            "county": "汉口区",
+            "hospital": "三甲",
+            "states": "次级",
+            "hotcity": "冷"
+        },
+        {
+            "province": "湖北",
+            "city": "武汉",
+            "county": "汉口区",
+            "hospital": "三甲",
+            "states": "次级",
+            "hotcity": "冷"
+        },
+        {
+            "province": "湖北",
+            "city": "武汉",
+            "county": "汉口区",
+            "hospital": "三甲",
+            "states": "次级",
+            "hotcity": "冷"
+        }
+    ]
+}
