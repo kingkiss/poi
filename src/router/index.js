@@ -61,12 +61,12 @@ const routes = [
                 },
                 component: () => import ( /* webpackChunkName: "permission" */ "../views/Permission.vue")
             }, {
-                path: "/i18n",
-                name: "i18n",
+                path: "/staffTable",
+                name: "staffTable",
                 meta: {
-                    title: '国际化语言'
+                    title: '在职表'
                 },
-                component: () => import ( /* webpackChunkName: "i18n" */ "../views/I18n.vue")
+                component: () => import ( /* webpackChunkName: "staffTable" */ "../views/staffTable.vue")
             }, {
                 path: "/upload",
                 name: "upload",

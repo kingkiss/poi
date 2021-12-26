@@ -44,64 +44,64 @@ export default {
                 title: "系统首页",
             },
             {
-                icon: "el-icon-lx-settings",
-                index: "/404",
-                title: "系统设置",
+                icon: "el-icon-lx-group",
+                index: "/staffTable",
+                title: "在职表",
             },
             {
-                icon: "el-icon-lx-global",
+                icon: "el-icon-lx-recharge",
                 index: "/address",
-                title: "地址管理",
+                title: "本月业绩",
             },
             {
-                icon: "el-icon-lx-link",
+                icon: "el-icon-lx-location",
                 index: "/tabs",
-                title: "导航管理",
+                title: "出勤明细",
             },
-            {
-                icon: "el-icon-lx-edit",
-                index: "3",
-                title: "内容相关",
-                subs: [
-                    {
-                        index: "/form",
-                        title: "栏目管理",
-                    },
-                    {
-                        index: "/upload",
-                        title: "扩展属性",
-                    },
-                    {
-                        index: "/editor",
-                        title: "内容管理",
-                    },
-                ],
-            },
-            {
-                icon: "el-icon-pie-chart",
-                index: "/charts",
-                title: "医院栏目管理",
-            },
-            {
-                icon: "el-icon-lx-sort",
-                index: "/i18n",
-                title: "栏目管理",
-            },
-            {
-                icon: "el-icon-lx-share",
-                index: "7",
-                title: "推荐管理",
-                subs: [
-                    {
-                        index: "/404",  //permison
-                        title: "推荐位置管理",
-                    },
-                    {
-                        index: "/404",
-                        title: "推荐内容管理",
-                    },
-                ],
-            },
+            // {
+            //     icon: "el-icon-lx-edit",
+            //     index: "3",
+            //     title: "内容相关",
+            //     subs: [
+            //         {
+            //             index: "/form",
+            //             title: "栏目管理",
+            //         },
+            //         {
+            //             index: "/upload",
+            //             title: "扩展属性",
+            //         },
+            //         {
+            //             index: "/editor",
+            //             title: "内容管理",
+            //         },
+            //     ],
+            // },
+            // {
+            //     icon: "el-icon-pie-chart",
+            //     index: "/charts",
+            //     title: "医院栏目管理",
+            // },
+            // {
+            //     icon: "el-icon-lx-sort",
+            //     index: "/i18n",
+            //     title: "栏目管理",
+            // },
+            // {
+            //     icon: "el-icon-lx-share",
+            //     index: "7",
+            //     title: "推荐管理",
+            //     subs: [
+            //         {
+            //             index: "/404",  //permison
+            //             title: "推荐位置管理",
+            //         },
+            //         {
+            //             index: "/404",
+            //             title: "推荐内容管理",
+            //         },
+            //     ],
+            // },
             // {
             //     icon: "el-icon-lx-redpacket_fill",
             //     index: "/donate",
