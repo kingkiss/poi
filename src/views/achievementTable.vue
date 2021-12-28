@@ -10,9 +10,9 @@
                 <el-table-column prop="city" label="姓名"  align="center" style="width:10%" />
                 <el-table-column prop="county" label="职级"  align="center" style="width:10%" />
                 <el-table-column prop="hospital" label="入司时间"  align="center" style="width:10%" />
-                <el-table-column prop="hospital" label="推荐人"  align="center" style="width:10%" />
-                <el-table-column prop="hospital" label="推荐人工号"  align="center" style="width:10%" />
-                <el-table-column prop="states" label="电话号码"  align="center" style="width:10%"/>
+                <el-table-column prop="hospital" label="本月保费"  align="center" style="width:10%" />
+                <el-table-column prop="hospital" label="FYC"  align="center" style="width:10%" />
+                <el-table-column prop="states" label="达成情况"  align="center" style="width:10%"/>
 
                 <!-- <el-table-column label="操作"  align="center" style="width:10%" >
                     <template #default="scope">

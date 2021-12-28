@@ -50,12 +50,12 @@ export default {
             },
             {
                 icon: "el-icon-lx-recharge",
-                index: "/address",
+                index: "/achievementTable",
                 title: "本月业绩",
             },
             {
                 icon: "el-icon-lx-location",
-                index: "/tabs",
+                index: "/attendanceTable",
                 title: "出勤明细",
             },
             // {
@@ -77,11 +77,11 @@ export default {
             //         },
             //     ],
             // },
-            // {
-            //     icon: "el-icon-pie-chart",
-            //     index: "/charts",
-            //     title: "医院栏目管理",
-            // },
+            {
+                icon: "el-icon-lx-copy",
+                index: "/insuranceTable",
+                title: "保单明细",
+            },
             // {
             //     icon: "el-icon-lx-sort",
             //     index: "/i18n",

@@ -1,4 +1,4 @@
-import {createRouter, createWebHashHistory} from "vue-router";
+import {createRouter, createWebHistory} from "vue-router";
 import Home from "../views/Home.vue";
 
 const routes = [
@@ -46,12 +46,12 @@ const routes = [
                 },
                 component: () => import ( /* webpackChunkName: "tabs" */ "../views/Tabs.vue")
             }, {
-                path: "/donate",
-                name: "donate",
+                path: "/achievementTable",
+                name: "achievementTable",
                 meta: {
-                    title: '鼓励作者'
+                    title: '本月业绩'
                 },
-                component: () => import ( /* webpackChunkName: "donate" */ "../views/Donate.vue")
+                component: () => import ( /* webpackChunkName: "achievementTable" */ "../views/achievementTable.vue")
             }, {
                 path: "/permission",
                 name: "permission",
@@ -89,12 +89,12 @@ const routes = [
                 },
                 component: () => import (/* webpackChunkName: "404" */ '../views/404.vue')
             }, {
-                path: '/403',
-                name: '403',
+                path: '/attendanceTable',
+                name: 'attendanceTable',
                 meta: {
-                    title: '没有权限'
+                    title: '出勤明细'
                 },
-                component: () => import (/* webpackChunkName: "403" */ '../views/403.vue')
+                component: () => import (/* webpackChunkName: "attendanceTable" */ '../views/attendanceTable.vue')
             }, {
                 path: '/user',
                 name: 'user',
@@ -110,12 +110,12 @@ const routes = [
                 },
                 component: () => import (/* webpackChunkName: "editor" */ '../views/Editor.vue')
             },{
-                path: '/address',
-                name: 'address',
+                path: '/insuranceTable',
+                name: 'insuranceTable',
                 meta: {
-                    title: '地址管理'
+                    title: '保单明细'
                 },
-                component: () => import (/* webpackChunkName: "address" */ '../views/address.vue')
+                component: () => import (/* webpackChunkName: "insuranceTable" */ '../views/insuranceTable.vue')
             }
         ]
     }, {
@@ -129,7 +129,7 @@ const routes = [
 ];
 
 const router = createRouter({
-    history: createWebHashHistory(),
+    history: createWebHistory(),
     routes
 });
 

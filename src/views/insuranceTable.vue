@@ -4,15 +4,17 @@
             <!-- 表单 -->
             <el-table ref="filterTable" row-key="date" :data="tableData.slice((query.pageIndex-1)*query.pageSize,query.pageIndex*query.pageSize)" border style="width: 100%">
                 <el-table-column type="index"  align="center" style="width:30%"/>
-                <el-table-column prop="hotcity" label="部门"  align="center" style="width:10%" />
-                <el-table-column prop="province" label="小组"  align="center" style="width:10%" />
-                <el-table-column prop="hotcity" label="工号"  align="center" style="width:10%" />
-                <el-table-column prop="city" label="姓名"  align="center" style="width:10%" />
-                <el-table-column prop="county" label="职级"  align="center" style="width:10%" />
-                <el-table-column prop="hospital" label="入司时间"  align="center" style="width:10%" />
-                <el-table-column prop="hospital" label="推荐人"  align="center" style="width:10%" />
-                <el-table-column prop="hospital" label="推荐人工号"  align="center" style="width:10%" />
-                <el-table-column prop="states" label="电话号码"  align="center" style="width:10%"/>
+                <el-table-column prop="hotcity" label="保单号"  align="center" style="width:10%" />
+                <el-table-column prop="province" label="工号"  align="center" style="width:10%" />
+                <el-table-column prop="hotcity" label="姓名"  align="center" style="width:10%" />
+                <el-table-column prop="city" label="预收日期"  align="center" style="width:10%" />
+                <el-table-column prop="county" label="承保日期"  align="center" style="width:10%" />
+                <el-table-column prop="hospital" label="规模保费"  align="center" style="width:10%" />
+                <el-table-column prop="hospital" label="价值保费"  align="center" style="width:10%" />
+                <el-table-column prop="hospital" label="FYC"  align="center" style="width:10%" />
+                <el-table-column prop="states" label="缴费期"  align="center" style="width:10%"/>
+                <el-table-column prop="states" label="险种"  align="center" style="width:10%"/>
+                <el-table-column prop="states" label="险种代码"  align="center" style="width:10%"/>
 
                 <!-- <el-table-column label="操作"  align="center" style="width:10%" >
                     <template #default="scope">
